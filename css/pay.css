@@ -1,0 +1,366 @@
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    gap: 10px;
+
+    padding: 20px;
+
+    align-items: center;
+
+    border-bottom: solid 1px black;
+}
+
+header > img {
+    width: 110px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+ul, nav > div{
+    display: flex;
+    gap: 10px;
+
+    list-style: none;
+
+    align-items: center;
+}
+
+header form {
+    margin-left: auto;
+}
+
+.header__left {
+    margin-left: auto;
+}
+
+
+footer {
+    margin: 50px 0;
+    background: black;
+    padding: 50px;
+
+    color: white;
+    justify-content: space-around;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+footer > section {
+    margin-left: auto;
+
+    font-family: 'Roboto Slab', serif;
+
+}
+label {
+    display: block;
+}
+
+footer > h3 {
+    font-size: 50px;
+}
+
+footer section h4 {
+    color: lightskyblue;
+}
+
+.newCustomer {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.newCustomer > p.info {
+    width: 50%;
+    padding: 5px;
+}
+
+.newCustomer > form{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer form input {
+    max-width: 300;
+}
+
+.yellow {
+    color: #fd0;;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+
+
+.box{
+    display: flex;
+    gap: 10px;
+    margin-top: 13px;
+}
+
+.gmailwidth{
+    width: 430px;
+
+}
+
+.gmailtop, .phonetop{
+    margin-top: 13px;
+}
+
+.payinfo{
+    display: flex;
+}
+
+main{
+    margin-top: -10px;
+}
+
+.infoadrbutton{
+    transform: translateX(80%);
+}
+
+.adresswidth{
+    width: 430px;
+}
+
+
+
+
+@media all and (max-width: 830px){
+    header form {
+        display: none;
+    }
+}
+
+@media all and (max-width: 638px){
+    #hidden {
+        display: none;
+    }
+
+    .hidden {
+        visibility: visible;
+    }
+}
+
+@media all and (max-width: 532px){
+    header {
+        flex-wrap: wrap;
+    }
+
+    header ul{
+        gap: 50px;
+    }
+
+    .text__hidden {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 2000px) and (min-width: 1700px) {
+    main{
+        width: 50%;
+        transform: translateX(-3%);
+    
+    }
+
+}
+
+@media only screen and (max-width: 1700px) and (min-width: 1300px) {
+    main{
+        width: 60%;
+        transform: translateX(-3%);
+    
+    }
+
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1000px) {
+    main{
+        width: 70%;
+        transform: translateX(-3%);
+    
+    }
+
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 900px) {
+    main{
+        width: 80%;
+        transform: translateX(  3%);
+    
+    }
+
+}
+
+@media only screen and (max-width: 900px) and (min-width: 810px) {
+    main{
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 810px) and (min-width: 730px) {
+    main{
+        width: 100%;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 730px) and (min-width: 580px) {
+    main{
+        width: 100%;
+    }
+
+    .gmailwidth{
+        width: 270px;
+    
+    }
+    .namewidth{
+        width: 131px;
+        
+    }
+
+    .adresswidth{
+        width: 310px;
+    }
+
+    .inputwidth{
+        width: 150px;
+    }
+
+
+}
+
+@media only screen and (max-width: 580px) and (min-width: 470px) {
+    main {
+        width: 100%;
+    }
+    
+    .gmailwidth,
+    .namewidth {
+        width: 230px;
+    }
+
+    .adresswidth {
+        width: 210px;
+    }
+
+    .shopSummary {
+        width: 190px;
+    }
+
+    .inputwidth {
+        width: 180px;
+    }
+
+    .box {
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 470px) and (min-width: 430px) {
+    main {
+        width: 100%;
+    }
+    
+    .gmailwidth, .namewidth, .adresswidth {
+        width: 180px;
+    }
+
+    .shopSummary {
+        width: 190px;
+    }
+
+    .inputwidth {
+        width: 130px;
+    }
+
+    .box {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 430px) and (min-width: 370px) {
+    main{
+        width: 100%;
+        gap: 10px;
+    }
+    .namewidth, .cvv, .expires, .gmailwidth{
+        width: 180px;
+    
+    }
+
+    .shopSummary{
+        width: 190px;
+    }
+
+    .box{
+        display: block;
+    }
+
+    .inputwidth, .adresswidth{
+        width: 150px;
+    }
+
+
+}
+
+
+
+.backStore {
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Nova Oval', cursive;
+
+    text-align: center;
+}
+
+
+section.checkOut{
+    padding: 0 20px;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.checkout{
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+
+.checkoutflex{
+    display: flex;
+    justify-content: center;
+    transform: translateY(50%);
+}
+
+

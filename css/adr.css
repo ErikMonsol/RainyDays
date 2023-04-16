@@ -1,0 +1,16 @@
+.paymentbutton{
+    padding: 10px 20px;
+    cursor: pointer;
+    transform: translateY(90%);
+    
+
+    
+}
+
+.contentshop{
+    transform: translateY(10%);
+}
+
+.shopSummary{
+    padding: 30px 20px;
+}

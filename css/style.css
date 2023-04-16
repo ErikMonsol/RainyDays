@@ -1,0 +1,401 @@
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    gap: 10px;
+
+    padding: 20px;
+
+    align-items: center;
+
+    border-bottom: solid 1px black;
+}
+
+header > img {
+    width: 110px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+ul, nav > div{
+    display: flex;
+    gap: 10px;
+
+    list-style: none;
+
+    align-items: center;
+}
+
+header form {
+    margin-left: auto;
+}
+
+.header__left {
+    margin-left: auto;
+}
+
+.promotion{
+    display: flex;
+    background: black;
+    width: 70%;
+    height: 50px;
+
+    margin: 0 auto;
+
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+marquee > span {
+    font-family: 'Rajdhani', sans-serif;
+    margin-right: 200px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    background: url(https://c0.wallpaperflare.com/preview/872/281/117/selective-focus-photography-of-hanged-leather-jackets-with-different-colors.jpg);
+    background-size: cover;
+}
+
+.popular {
+    flex-grow: 1;
+    height: 80vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+
+}
+
+
+h1 {
+    font-size: 100px;
+    font-family: 'Nova Oval', cursive;
+
+    color: white;
+    -webkit-text-stroke: 1.5px black;
+}
+
+.popular > button {
+    background-color: white;
+    padding: 5px;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.flex__group {
+    flex-grow: 1;
+    height: 100vh;
+    padding: 50px;
+    gap: 50px;
+    display: flex;
+    
+}
+
+.box__featured {
+    background: url("https://images.unsplash.com/photo-1576609779241-346b1d75f569?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&w=1000&q=80");
+    background-size: cover;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.box__featured > h2 {
+
+    padding: 0 30px 0 30px;
+    font-size: 40px;
+    font-family: 'Nova Oval', cursive;
+
+    color: white;
+}
+
+.box__featured > p{
+    margin: 0 110px 30px 0;
+    padding: 10px;
+    background: white;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.box__women {
+    background: url("https://cdn.thewirecutter.com/wp-content/media/2020/12/insulated-jacket-2048px-0272.jpg?auto=webp&quality=60&crop=1.91:1&width=1200");
+    background-position:center;
+    background-size: cover;
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box__women> h2, .box__man > h2, .box__kids > h2{
+
+    text-decoration: underline;
+    text-underline-position: under;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+
+    color: white;
+
+    text-shadow: black 1px 0 10px;
+}
+
+.box__women> p, .box__man > p, .box__kids >p {
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+
+    text-shadow: black 1px 0 10px;
+}
+
+
+.flex__box {
+    gap: 50px;
+    flex-direction: column;
+    flex:1;
+    width: 20%;
+    display: flex;
+}
+
+.box__man {
+    background: url("https://down-ph.img.susercontent.com/file/0e400b0fc78e19099486c7b149e69eea");
+    flex-basis: 50%;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box__kids {
+    background: url("https://www.babyshop.com/images/1072880/open_graph.jpg");
+    flex-basis: 50%;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin: 50px 0;
+    background: black;
+    padding: 50px;
+
+    color: white;
+    justify-content: space-around;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+footer > section {
+    margin-left: auto;
+
+    font-family: 'Roboto Slab', serif;
+
+}
+label {
+    display: block;
+}
+
+footer >h3 {
+    font-size: 50px;
+}
+
+footer section h4 {
+    color: lightskyblue;
+}
+
+.newCustomer {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.newCustomer > p.info {
+    width: 50%;
+    padding: 5px;
+}
+
+.newCustomer > form{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer form input {
+    max-width: 300;
+}
+
+.yellow {
+    color: #fd0;;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+@media all and (max-width: 1050px){
+    .flex__group {
+        flex-wrap: wrap;
+    }
+
+    .box__featured {
+        width: 100%;
+        background-position: center;
+    }
+
+    .flex__box {
+        gap:50px;
+    }
+
+    .box__women {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 830px){
+    header  form {
+        display: none;
+    }
+
+    .popular {
+        height: 50vh;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+}
+
+@media all and (max-width: 638px){
+
+    .popular {
+        height: 40vh;
+    }
+
+    .box__featured > h2{
+        font-size: 30px;
+        text-shadow: black 1px 0 10px;
+    
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    #hidden {
+        display: none;
+    }
+
+    .hidden {
+        visibility: visible;
+    }
+}
+
+@media all and (max-width: 532px){
+    header {
+        flex-wrap: wrap;
+    }
+
+    header ul{
+        gap: 50px;
+    }
+
+    .text__hidden {
+        display: none;
+    }
+
+    .newCustomer {
+        font-size: 15px;
+    }
+
+    .newCustomer > p.info {
+        width: 80%;
+        padding: 5px;
+    }
+
+
+    
+}
+
+@media all and (max-width: 474px){
+    h1 {
+        font-size: 40px;
+        -webkit-text-stroke: 0.5px black;
+    }
+
+    .box__featured p{
+        margin: 3px 30px;
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .box__featured h2{
+        font-size: 20px;
+    }
+
+}
+
+@media all and (max-width: 340px){
+    h1 {
+        font-size: 30px;
+    }
+
+    footer form input {
+        width: 150px;
+    }
+
+    .box__featured p{
+        margin: 3px 30px;
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .box__featured h2{
+        font-size: 20px;
+    }
+
+}
+
+
+@media all and (max-width: 400px){
+    ul {
+       display: none;
+    }
+
+    h1 {
+        -webkit-text-stroke: 0.3px black;
+    }
+}
